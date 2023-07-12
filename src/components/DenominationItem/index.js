@@ -2,7 +2,7 @@
 import "./index.css"
 const DenominationItem=props=>{
     const {denominationDetails,updatedBalance}=props
-    const{value}=DeviceOrientationEvent
+    const{value}=denominationDetails
 
     const onClickDenomination=()=>{
         updatedBalance(value)
