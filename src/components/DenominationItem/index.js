@@ -5,7 +5,7 @@ const DenominationItem=props=>{
     const{value}=denominationDetails
 
     const onClickDenomination=()=>{
-        updatedBalance(value)
+        updateBalance(value)
     }
     return(
         <li className="Denomination-list">
