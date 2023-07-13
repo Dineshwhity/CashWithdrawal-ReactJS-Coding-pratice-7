@@ -1,7 +1,7 @@
 // Write your code here
 import "./index.css"
 const DenominationItem=props=>{
-    const {denominationDetails,updatedBalance}=props
+    const {denominationDetails,updateBalance}=props
     const{value}=denominationDetails
 
     const onClickDenomination=()=>{
